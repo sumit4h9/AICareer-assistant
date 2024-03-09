@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career assesment chatbot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 65px;
+            background-color: rgb(94 47 190);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(183, 183, 247);
+            font-size: 1.02rem;
+        }
+
+        #s {
+            border: 0;
+            background: #9c97f1;
+            height: 0.2rem;
+            margin: 59px -65px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 35%;
+
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            color: rgb(230, 133, 14);
+            padding-bottom: 31vh;
+        }
+
+        .rightsection img {
+            width: 113%;
+            height: 50ch;
+        }
+
+        .container img {
+            width: 19%;
+            height: 13ch;
+            margin: -8px;
+        }
+
+        .purple {
+            color: rgb(170, 111, 226);
+        }
+
+        .text-grey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 111, 226);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 0.6rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 178vh;
+            height: 2px;
+            margin: 43px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -10px;
+        }
+
+        .vertical-tittle {
+            position: relative;
+            top: 58px;
+            left: -50px;
+            width: 118px;
+            color: #9c97f1;
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 60px;
+            width: 181px;
+            left: -64px;
+        }
+
+        footer {
+            background-color: #0f0f3b;
+            height: 330px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 50px 122px;
+            justify-content: space-evenly;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .about {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            color: #9c97f1;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+
+        .a {
+            padding: 0.5ch;
+            margin: 0.5ch;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .services {
+            background-color: lightpink;
+            padding: 50px;
+        }
+
+        .service-item {
+            margin-bottom: 20px;
+        }
+
+        #p {
+            margin: 50px 50px;
+            border: 0;
+            background: #9c97f1;
+            height: 0.2rem;
+        }
+
+        .rights {
+            text-align: center;
+            padding: 0vh;
+            margin: 0ch;
+        }
+
+        .im {
+            position: fixed;
+            z-index: -1;
+            height: 140vh;
+            width: 101%;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="im" src="back.jpg" alt="">
+    <header>
+        <nav>
+            <div class="left">Career Finder</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#first">Home</a></li>
+                    <li><a href="#second">Services</a></li>
+                    <li><a href="#third">About</a></li>
+                    <!-- <li><a href="/">Projects</a></li> -->
+                    <li><a href="#forth">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="first">
+            <div class="leftsection">
+                Hi, Tensed About <span class="purple">Your Career</span>
+                <div>Take A Career assesment Test Find Your career</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="/pngegg (1).png" alt="">
+            </div>
+        </section>
+        <section class="secondsection" id="second">
+            <hr id="s">
+            <section class="services">
+                <div class="sert">
+                    <h2>Our Services</h2>
+                    <div class="service-item">
+                        <h3>AI Career Assessment</h3>
+                        <p>Our AI-powered assessment evaluates your skills, interests, and career goals to provide
+                            personalized recommendations for AI career paths.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Expert Guidance</h3>
+                        <p>Receive one-on-one guidance from industry experts who will help you navigate the complexities
+                            of the AI field and make informed career decisions.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Training Resources</h3>
+                        <p>Access a curated collection of training resources, including courses, tutorials, and
+                            workshops, to enhance your AI skills and stay competitive in the job market.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="thirdsection" id="third">
+            <hr id="p">
+            <section class="service">
+                <div class="container">
+                    <h2 class="A">About Us</h2>
+                    <p class="p1">At AI Career Assessment, we understand the importance of support at any hour. That's
+                        why we provide round-the-clock assistance, ensuring that our users have access to guidance and
+                        resources whenever they need them. With our 24/7 assistant, you're never alone in your journey
+                        towards a successful AI career.</p>
+                    <img class="ab1" src="ser.png" alt="Our Team">
+                    <p class="p2">At AI Career Assessment, we offer cutting-edge AI technology to provide you with the
+                        best question answering capabilities and assessment tests available. Our advanced algorithms
+                        ensure precise evaluation and personalized recommendations, empowering you to make informed
+                        decisions for your career advancement. Choose AI Career Assessment for unparalleled insights and
+                        guidance tailored to your unique strengths and goals.</p>
+                    <img class="ab2" src="assessment.png" alt="Our Office">
+                </div>
+            </section>
+        </section>
+        </section>
+    </main>
+    <section id="forth">
+    <footer>
+        <div class="footer" id="third">
+            <div class="footer-first">
+                <h3>Career Finder</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>AI Chatbot</li>
+                    <li>Career Assesment</li>
+                    <li>Test</li>
+                    <li>Community</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Insta</li>
+                    <li>Linkedin</li>
+                    <li>Facebook</li>
+                    <li>+91 9119459747</li>
+                </ul>
+            </div>
+        </div>
+        <h4 class="rights">
+            <p>&copy; 2024 AI Career Assistant. All rights reserved.</p>
+        </h4>
+    </footer></section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Cyber security expert', 'Web devloper', 'Software engineer', 'Cloud Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script defer src="https://app.fastbots.ai/embed.js" data-bot-id="cltizi19l0009s9b3hidg7nzl"></script>
+</body>
+
+</html>
